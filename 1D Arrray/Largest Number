@@ -1,1 +1,14 @@
+public class LargestElement{
+    public static void main(String[] args){
 
+        int arr[] = {24,45,43,2,4,5,6,34,2,1,5,35,3,13,4,25,67};
+        int num = Integer.MIN_VALUE;
+        for(int i=1; i<arr.length; i++){
+            if(arr[i]>num){
+                num = arr[i];
+            }
+        }
+
+        System.out.println("The largest no in the array is "+num);
+    }
+}
