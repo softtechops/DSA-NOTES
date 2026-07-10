@@ -1,6 +1,5 @@
-
-    public static void main(String[] args) {
-        
-        // Fibonacci problem
-        int n = 8;
-        System.out.println(fibo(n));
+public static void recPrint(int[] arr , int idx){
+    //     if(idx==arr.length) return;
+    //     System.out.print(arr[idx]+" ");
+    //     recPrint(arr, idx+1);
+    // }
